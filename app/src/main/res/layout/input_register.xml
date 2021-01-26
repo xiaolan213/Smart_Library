@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              android:gravity="center"
+>
+
+    <LinearLayout
+            android:id="@+id/ly_regusername"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:fontFamily="sans-serif"
+                android:textColor="@color/LightSlateGray"
+                android:textColorHint="@color/LightSlateGray"
+                android:inputType="text"
+                android:background="@drawable/button_circle"
+                android:gravity="top|left"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:id="@+id/ed_reguser"
+                android:hint="input your username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ly_regpwd"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:fontFamily="sans-serif"
+                android:textColor="@color/LightSlateGray"
+                android:textColorHint="@color/LightSlateGray"
+                android:inputType="textPassword"
+                android:background="@drawable/button_circle"
+                android:gravity="top|left"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:id="@+id/ed_regpwd"
+                android:hint="input your password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ly_regpwd1"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:fontFamily="sans-serif"
+                android:textColor="@color/LightSlateGray"
+                android:textColorHint="@color/LightSlateGray"
+                android:inputType="textPassword"
+                android:background="@drawable/button_circle"
+                android:gravity="top|left"
+                android:layout_marginRight="10dip"
+                android:layout_marginLeft="10dip"
+                android:id="@+id/ed_regpwd1"
+                android:hint="repeat your password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

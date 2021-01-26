@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/ly_list"
+        android:background="@drawable/bg_login"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+>
+
+
+    <LinearLayout
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+                android:background="@drawable/book_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:text="书本列表"
+                android:textSize="15dp"
+                android:textColorHint="@color/SlateBlue"
+                android:textStyle="bold"
+                android:textColor="@color/OrangeRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.example.xiaolan.myapplication.ListView.ListViewForScrollView
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </com.example.xiaolan.myapplication.ListView.ListViewForScrollView>
+
+
+
+</LinearLayout>

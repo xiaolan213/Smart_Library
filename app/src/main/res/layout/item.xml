@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+    <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_bookname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="书名:"
+
+            android:textSize="15sp" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:textSize="10sp"
+                android:id="@+id/tv_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="作者:" />
+
+        <TextView
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="在馆" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".SecondFragment"
+              android:orientation="vertical"
+              android:background="@drawable/fbg"
+
+>
+
+    <include
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/title_second">
+    </include>
+
+
+
+    <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/booklist">
+
+            </include>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

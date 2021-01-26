@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+            android:fontFamily="casual"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/GhostWhite"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="书名:"
+            android:textSize="15sp" />
+
+    <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <TextView
+                android:textColor="@color/GhostWhite"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/tv_toboname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="..." />
+    </LinearLayout>
+
+</LinearLayout>

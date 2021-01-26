@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:enabled="true"
+            android:id="@+id/navigation_check"
+            android:icon="@drawable/check"
+            android:title="检测"/>
+
+    <item
+            android:enabled="true"
+            android:id="@+id/navigation_book"
+            android:icon="@drawable/book"
+            android:title="借书还书"/>
+
+    <item
+            android:enabled="true"
+            android:id="@+id/navigation_personal"
+            android:icon="@drawable/user"
+            android:title="用户"></item>
+
+</menu>

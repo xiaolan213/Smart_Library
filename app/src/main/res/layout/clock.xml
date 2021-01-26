@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/bg_login"
+              android:id="@+id/lv_clock"
+>
+
+    <LinearLayout
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+                android:background="@drawable/timeicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:padding="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:text="时间"
+                android:textSize="15dp"
+                android:textColorHint="@color/SlateBlue"
+                android:textStyle="bold"
+                android:textColor="@color/OrangeRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.example.xiaolan.myapplication.Clock.MiClockView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+        />
+
+        <com.robinhood.ticker.TickerView
+                android:textStyle="bold"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/OrangeRed"
+                android:textSize="15dp"
+                android:id="@+id/ticker_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

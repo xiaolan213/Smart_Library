@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/ly_profile"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_login"
+>
+
+    <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/ly_my"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <TextView
+                    android:textSize="20dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:gravity="left"
+                    android:text="我的"
+                    android:textStyle="bold"
+                    android:textColor="@color/GhostWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <TextView
+                    android:id="@+id/tv_settting"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:gravity="right"
+                    android:textSize="20dp"
+                    android:text="设置"
+                    android:textStyle="bold"
+                    android:textColor="@color/GhostWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:gravity="left"
+            android:padding="10dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:background="@drawable/bg_login"
+                android:id="@+id/ly_profile1"
+                android:orientation="horizontal"
+                android:layout_width="85dp"
+                android:layout_height="85dp">
+            <com.example.xiaolan.myapplication.Image.MyImageView
+                    android:src="@drawable/profile1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+                android:layout_marginLeft="10dp"
+                android:gravity="left"
+               android:layout_gravity="left"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_marginTop="5dp"
+                    android:textSize="25dp"
+                    android:text="root"
+                    android:textStyle="bold"
+                    android:textColor="@color/GhostWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:id="@+id/ly_tel"
+                        android:background="@drawable/bg_login"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                            android:gravity="left|center_vertical"
+                            android:layout_gravity="left|center_vertical"
+                            android:text="180******15"
+                            android:textColor="@color/GhostWhite"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <TextView
+                            android:layout_marginTop="10dp"
+                            android:gravity="right|center_vertical"
+                            android:layout_gravity="right|center_vertical"
+                            android:text=">"
+                            android:textColor="@color/GhostWhite"
+                            android:textStyle="bold"
+                            android:textSize="13dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
